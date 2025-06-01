@@ -1,4 +1,4 @@
-public class Main {
+public class Vowelconso {
     public static void main(String[] args) {
         char ch = 'e';
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {

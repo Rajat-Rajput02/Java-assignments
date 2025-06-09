@@ -1,7 +1,11 @@
+import java.util.Scanner;
 public class Largestof3 {
     public static void main(String[] args) {
-        int a = 10, b = 20, c = 30;
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter three numbers: ");
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+        int c= sc.nextInt();
         // Compare three numbers using if-else ladder
         if (a > b && a > c) {
             System.out.println("a is greatest");
